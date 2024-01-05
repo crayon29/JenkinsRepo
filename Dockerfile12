@@ -1,0 +1,3 @@
+FROM openjdk:11.0
+WORKDIR /gfg/proj
+COPY target/my-calculator.jar my-calculator.jar

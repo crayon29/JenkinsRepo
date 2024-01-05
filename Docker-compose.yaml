@@ -1,0 +1,11 @@
+version: '3'
+services:
+ databases:
+  image: ubuntu
+  ports:
+   - "3307:3306"
+ web1:
+  image: nginx
+  ports:
+   - "8088:80"
+  
